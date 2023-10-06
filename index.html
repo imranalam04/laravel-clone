@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet" type="text/css" />
+    <style>
+      .bg-radial {
+        background-image: gradient(
+          50% 50% at 50% 50%,
+          #eb4432 0%,
+          rgba(227, 86, 86, 0) 100%
+        );
+        width: 500px;
+        background-color: red;
+        left: 50%;
+      }
+      .animate-cube {
+    animation: cube 6s ease-in-out infinite;
+}
+    </style>
+  </head>
+  <body>
+    <div
+      class="bg-red-500 flex flex-1 justify-center items-center py-2 text-white gap-2"
+    >
+      <svg
+        class="w-5 h-5 text-white"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
+        ></path>
+      </svg>
+      <p>
+        Deploy Laravel with the infinite scale of serverless using
+        <u>Laravel Vapor.</u>
+      </p>
+    </div>
+    <!--Header-->
+    <div class="bg-white flex flex-1 justify-between items-center py-5 px-20">
+      <div class="flex gap-5">
+        <img src="images/logomark.min (1).svg" alt="" />
+        <img src="images/laravel.svg" alt="" />
+      </div>
+      <div class="flex items-center gap-10">
+        <a href="">Forge</a>
+        <a href="">Vapor</a>
+        <a href="">Ecosystem</a>
+        <a href="">News</a>
+        <a href="">Partners</a>
+        <a href="">Shop</a>
+      </div>
+      <div class="flex justify-between items-center gap-5">
+        <a href="">
+          <svg
+            width="20"
+            height="20"
+            class="DocSearch-Search-Icon"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z"
+              stroke="currentColor"
+              fill="none"
+              fill-rule="evenodd"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+        </a>
+        <a
+          href=""
+          class="border-red-500 border uppercase px-3 py-2 rounded text-red-500 font-bold"
+          >Documentation</a
+        >
+      </div>
+    </div>
+
+    <div class="flex flex-1 h-[550px] flex-col justify-center items-center">
+      <div class="bg-radial absolute top-0 left-[-40px] w-[480px]"></div>
+      <div class="absolute top-[200px] left-[15%]">
+       
+        <svg x-data="{
+          initializeAnimation: false,
+          init() {
+              setTimeout(() => {
+                  this.initializeAnimation = true;
+              }, 0);
+          },
+      }" :class="initializeAnimation ? 'animate-cube' : ''" class="text-red-600 animate-cube" width="46" height="53" viewBox="0 0 46 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="m23.102 1 22.1 12.704v25.404M23.101 1l-22.1 12.704v25.404" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path d="m45.202 39.105-22.1 12.702L1 39.105" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path transform="matrix(.86698 .49834 .00003 1 1 13.699)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86698 -.49834 -.00003 1 23.102 26.402)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86701 -.49829 .86701 .49829 1 13.702)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.491H0z"></path>
+  </svg>  
+
+      </div>
+      <div class="absolute top-[130px] left-[70%]">
+       
+        <svg x-data="{
+          initializeAnimation: false,
+          init() {
+              setTimeout(() => {
+                  this.initializeAnimation = true;
+              }, 0);
+          },
+      }" :class="initializeAnimation ? 'animate-cube' : ''" class="text-red-600 animate-cube" width="46" height="53" viewBox="0 0 46 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="m23.102 1 22.1 12.704v25.404M23.101 1l-22.1 12.704v25.404" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path d="m45.202 39.105-22.1 12.702L1 39.105" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path transform="matrix(.86698 .49834 .00003 1 1 13.699)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86698 -.49834 -.00003 1 23.102 26.402)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86701 -.49829 .86701 .49829 1 13.702)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.491H0z"></path>
+  </svg>  
+
+      </div>
+      <div class="absolute left-[80%] top-[63.3%]">
+       
+        <svg x-data="{
+          initializeAnimation: false,
+          init() {
+              setTimeout(() => {
+                  this.initializeAnimation = true;
+              }, 0);
+          },
+      }" :class="initializeAnimation ? 'animate-cube' : ''" class="text-red-600 animate-cube" width="46" height="53" viewBox="0 0 46 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="m23.102 1 22.1 12.704v25.404M23.101 1l-22.1 12.704v25.404" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path d="m45.202 39.105-22.1 12.702L1 39.105" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel"></path><path transform="matrix(.86698 .49834 .00003 1 1 13.699)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86698 -.49834 -.00003 1 23.102 26.402)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.405H0z"></path><path transform="matrix(.86701 -.49829 .86701 .49829 1 13.702)" stroke="currentColor" stroke-width="1.435" stroke-linejoin="bevel" d="M0 0h25.491v25.491H0z"></path>
+  </svg>  
+
+      </div>
+      <h1 class="text-[80px] font-black ">The PHP Framework</h1>
+      <h2 class="text-[80px] font-black text-red-600 -mt-10">
+        for Web Artisans
+      </h2>
+      <p class="text-2xl text-center font-extralight w-[45%] mb-5 my-10">
+        Laravel is a web application framework with expressive, elegant syntax.
+        We’ve already laid the foundation — freeing you to create without
+        sweating the small things.
+      </p>
+
+      <div class="flex gap-5 py-5">
+        <a
+          href=""
+          class="px-3 py-2 bg-red-500 text-white font-semibold uppercase"
+          >Get Started</a
+        >
+        <a
+          href=""
+          class="px-3 py-2 border-red-500 border text-red-500 font-semibold uppercase"
+          >Watch Laracast</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
